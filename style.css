@@ -1,0 +1,136 @@
+/* GLOBAL SETTINGS */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #2c3e50;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* CONTAINERS & CARDS */
+.container {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 650px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.rankings-card {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* HOME PAGE HERO & GRID */
+.hero {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    width: 100%;
+    padding: 80px 0;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 { font-size: 45px; margin: 0 0 20px 0; }
+.hero p { font-size: 20px; margin-bottom: 30px; opacity: 0.9; }
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 60px 20px;
+    background: #ffffff;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-box {
+    flex: 1;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #eee;
+    background: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.contact-section {
+    background-color: #f8f9fa;
+    width: 100%;
+    padding: 60px 0;
+    border-top: 1px solid #eee;
+    text-align: center;
+}
+
+.blue-divider {
+    height: 3px;
+    width: 60px;
+    background-color: #2980b9;
+    margin: 0 auto 25px;
+}
+
+/* BUTTONS */
+.btn {
+    display: inline-block;
+    background-color: #2980b9;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn-green {
+    background-color: #27ae60 !important;
+}
+
+/* TABLES */
+table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+th, td { padding: 15px; border: 1px solid #eee; text-align: center; }
+th { background-color: #f8f9fa; color: #2c3e50; font-weight: bold; }
+
+/* FORMS */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+/* FOOTER */
+footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+}
